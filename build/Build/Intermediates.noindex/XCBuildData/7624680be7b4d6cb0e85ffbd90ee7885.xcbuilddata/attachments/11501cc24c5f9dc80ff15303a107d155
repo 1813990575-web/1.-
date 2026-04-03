@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/aha-master.dia",
+    "emit-module-dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/aha-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/aha-master-emit-module.dia",
+    "swift-dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/aha-master.swiftdeps"
+  },
+  "/Users/aha/Documents/我造的应用/aha/aha/ContentView.swift" : {
+    "const-values" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/aha/Documents/我造的应用/aha/aha/ahaApp.swift" : {
+    "const-values" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.swiftconstvalues",
+    "dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.d",
+    "diagnostics" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.dia",
+    "index-unit-output-path" : "/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.o",
+    "llvm-bc" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.bc",
+    "object" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.o",
+    "swift-dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp.swiftdeps",
+    "swiftmodule" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/ahaApp~partial.swiftmodule"
+  },
+  "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/aha/Documents/我造的应用/aha/build/Build/Intermediates.noindex/aha.build/Debug/aha.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
