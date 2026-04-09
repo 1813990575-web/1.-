@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2414" systemVersion="25F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PasteboardItemEntity" representedClassName="PasteboardItemEntity" syncable="YES">
+        <attribute name="content" attributeType="String" optional="NO"/>
+        <attribute name="id" attributeType="UUID" optional="NO" defaultStringValue=""/>
+        <attribute name="isPinned" attributeType="Boolean" optional="NO" defaultValueString="NO"/>
+        <attribute name="remark" attributeType="String" optional="YES"/>
+        <attribute name="tag" attributeType="String" optional="YES"/>
+        <attribute name="timestamp" attributeType="Date" optional="NO"/>
+        <elementID value="com.apple.IDECoreDataModeler.Entity.0"/>
+    </entity>
+    <elements>
+        <element name="PasteboardItemEntity" positionX="140" positionY="100" width="128" height="140"/>
+    </elements>
+</model>

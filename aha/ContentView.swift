@@ -1,6 +1,11 @@
 
 import SwiftUI
 
+enum ViewType {
+    case main
+    case settings
+}
+
 struct ContentView: View {
     @StateObject private var clipboardManager = ClipboardManager()
     @StateObject private var panelSettings = PanelSettings()
@@ -8,6 +13,7 @@ struct ContentView: View {
     @State private var selectedCategory: CategoryType = .all
     @State private var searchText: String = ""
     @State private var showToast: Bool = false
+    @State private var currentView: ViewType = .main
 
     var filteredItems: [PasteboardItem] {
         var result = clipboardManager.items
@@ -38,25 +44,29 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            HeaderView(searchText: $searchText)
-                .padding(.top)
+            if currentView == .main {
+                HeaderView(searchText: $searchText, currentView: $currentView)
+                    .padding(.top)
 
-            CategoryBarView(selectedCategory: $selectedCategory)
-                .padding(.vertical, 10)
+                CategoryBarView(selectedCategory: $selectedCategory)
+                    .padding(.vertical, 10)
 
-            CardListView(items: filteredItems, showToast: $showToast)
+                CardListView(items: filteredItems, showToast: $showToast)
 
-            // L4: 输入/功能区 & Resize Handle
-            VStack(spacing: 0) {
-                FooterView(
-                    currentTag: currentTag,
-                    onCommit: { content, remark, tag in
-                        clipboardManager.addItem(content: content, remark: remark, tag: tag)
-                    }
-                )
-                ResizeHandle()
+                // L4: 输入/功能区 & Resize Handle
+                VStack(spacing: 0) {
+                    FooterView(
+                        currentTag: currentTag,
+                        onCommit: { content, remark, tag in
+                            clipboardManager.addItem(content: content, remark: remark, tag: tag)
+                        }
+                    )
+                    ResizeHandle()
+                }
+                .background(Color(nsColor: .windowBackgroundColor))
+            } else if currentView == .settings {
+                SettingsView(currentView: $currentView)
             }
-            .background(Color(nsColor: .windowBackgroundColor))
         }
         .environmentObject(clipboardManager)
         .environmentObject(panelSettings)
@@ -73,6 +83,7 @@ struct ContentView: View {
                 Spacer().frame(height: 60)
             }
         )
+
     }
 }
 

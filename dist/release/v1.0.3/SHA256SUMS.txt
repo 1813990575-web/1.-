@@ -1,0 +1,2 @@
+f399594926f9157358154db62ccb656ed1c7cf6863c1161b7c9bfa56077ae8d2  aha-v1.0.3-macos-apple-silicon.dmg
+214db49de21f491cf7590e3d41ba2a227f1c81eb6cc4e5c0b9bc910f0293f5d9  aha-v1.0.3-macos-intel.dmg
